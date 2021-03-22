@@ -1,0 +1,20 @@
+Step #1 (Authorization Code)
+Authorization Endpoint:	https://auth.brightspace.com/oauth2/auth
+Redirect URI:		https://localhost:3001
+Client ID:		96addb8a-1774-4807-96b2-de0345f9150c
+
+Scope:			core:*:* datahub:*:*
+State:			hvz0v66vmgs5x12rb3hdwmx8ua42lfltd09xd9u0py0rmaiga9 (I think generated everytime application is started)...
+
+Step #2 (Access (and Refresh) Token via Authorization Code
+Token Endpoint:		https://auth.brightspace.com/core/connect/token
+Redirect URL:		https://localhost:3001
+Client ID:		96addb8a-1774-4807-96b2-de0345f9150c
+
+Client Secret: 		P1003Pd8ex7GS6LwDSiypa2n-ZiczlSEAMCOsWxh8uc
+Authorization Code:	auth-code.d3TSJmJZTI7GosCKlGlhzreneOeY3AUlP4qjCQLaCcc (Used)
+
+Access Token:		eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImZkNWJjZjMwLTYyODMtNDRmOS1iZjEzLTNiNjc3MzJiN2MwZiJ9.eyJpc3MiOiJodHRwczovL2FwaS5icmlnaHRzcGFjZS5jb20vYXV0aCIsImF1ZCI6Imh0dHBzOi8vYXBpLmJyaWdodHNwYWNlLmNvbS9hdXRoL3Rva2VuIiwiZXhwIjoxNTgzOTU3NDAyLCJuYmYiOjE1ODM5NTAyMDIsInN1YiI6IjEzNDE5NDgiLCJ0ZW5hbnRpZCI6ImI5YTA4YmQxLTQ0Y2QtNDc5My05MDMyLWRlNDczNTUyNDU1MSIsImF6cCI6Ijk2YWRkYjhhLTE3NzQtNDgwNy05NmIyLWRlMDM0NWY5MTUwYyIsInNjb3BlIjoiY29yZToqOiogZGF0YWh1YjoqOioiLCJqdGkiOiI3NzIwNmE1Yy05YjNjLTQwNGYtYjMxZS1hMDMxZDE1YzRjYzUifQ.D0QgedBkbpIx2axdUNKuUEeEomLa_C4dRf_gU_Ea6zHFkn64MvjBHjsNv8-JSOpzKPkOST59ZAtRgk9sVUR-3vWmx5L4kLg4h0Zi2cqpGCjyVjifIp-knH-Ng4DjMRlLN66PjEjIKQ2jXzFj49WKnwLyss_7GCODGR9FMboXNwWgfOe-rqnukJzwvFbSMbMMI43qrBHyslAYC5lDhjKK0_CNUG3JpsN2-Y6T8mOYWTICZv09F5Q57T6RP4b8yWBY5lydEINj9z8Ik94RKiLCEjqPkmbV8XLKo06lDvTs2_hM94Nxz-Dd-9PKh5hJN4huhP_aCgMOTqlhq3eL3qwDzA
+Refresh Token:		rt-96addb8a-1774-4807-96b2-de0345f9150c.ffKNrzvfJ16yCbEBs_FrbOAQMSKKIHLUTOUaRFFzj0Q
+
+Step # 3 (Access (and Refresh) Token via Refresh Token)
